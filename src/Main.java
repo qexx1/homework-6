@@ -46,7 +46,7 @@ public class Main {
         //задание 9
         var Money = 29000;
         var overall = 0;
-        for (int i = 1; i < 12; i++) {
+        for (int month = 1; month < 12; month++) {
             overall += Money;
             overall = overall + overall * 12 / 100;
             System.out.println("Месяц " + i + " , сумма накоплений равна " + overall + " рублей");
