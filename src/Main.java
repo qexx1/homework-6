@@ -44,7 +44,7 @@ public class Main {
         }
 
         //задание 9
-        var Money = 29000;
+        var money = 29000;
         var overall = 0;
         for (int month = 1; month < 12; month++) {
             overall += Money;
